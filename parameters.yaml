@@ -1,0 +1,9 @@
+adminUser:
+  password: local:coops-boot-cluster/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  token: local:coops-boot-cluster/pipelineUser:token
+  username: cagiti-bot
+prow:
+  hmacToken: local:coops-boot-cluster/prow:hmacToken
